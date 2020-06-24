@@ -1987,7 +1987,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       page: 1,
       pageCount: 0,
-      itemsPerPage: 10,
+      itemsPerPage: 5,
       search: '',
       headers: [{
         text: 'Termes',
@@ -20513,7 +20513,7 @@ var render = function() {
                           value: _vm.itemsPerPage,
                           label: "Termes par page",
                           type: "number",
-                          min: "-1",
+                          min: "1",
                           max: "15"
                         },
                         on: {

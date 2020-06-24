@@ -19,7 +19,7 @@
               :value="itemsPerPage"
               label="Termes par page"
               type="number"
-              min="-1"
+              min="1"
               max="15"
               @input="itemsPerPage = parseInt($event, 10)"
             ></v-text-field>
